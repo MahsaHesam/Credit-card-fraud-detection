@@ -48,7 +48,8 @@ https://www.kaggle.com/datasets/dhanushnarayananr/credit-card-fraud
 **4. Exploratory Data Analysis:**
 We conducted an in-depth investigation and evaluation of the raw data. 
 
-**54. Data Preparation:**
+**5. Data Preparation:**
+
 
 
 **6. Model Training & Selection:**
