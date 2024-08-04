@@ -46,17 +46,45 @@ https://www.kaggle.com/datasets/dhanushnarayananr/credit-card-fraud
 - Fraud **:** This is the target variable, indicating whether a transaction is fraudulent.
 
 **4. Exploratory Data Analysis and Dependencies:**
+
 We conducted an in-depth investigation and evaluation of the raw data. 
 
 
 **5. Data Preparation:**
 
+Spark Installation:
+
+- Defines the Spark version.
+- Sets up the environment variables for Spark and Java.
+- Installs Java OpenJDK.
+- Downloads and extracts the Spark archive.
+- Installs Findspark and PySpark libraries.
+- Sets up environment variables for Spark's home directory.
+- Initializes Findspark.
+ -Creates a SparkSession with an application name.
+- Prints the Spark version for verification.
+
+**6. Data Loading and Preprocessing:**
+
+- Uploads a CSV file using Colab's file upload widget.
+- Reads the uploaded CSV file into a Spark DataFrame named df using spark.read.csv.
+- Creates temporary views for the DataFrame named transactions using df.createOrReplaceTempView.
+  
+**7. Feature and Target Definition:**
+
+- This section define the feature set (X) by selecting all columns from df except the target column ("fraud").
+Defines the target vector (y) by converting the "fraud" column in the DataFrame to a NumPy array.
+
+**8. Splitting Data into Train and Test Sets:**
+
+- This section convert the Spark DataFrames (X and y) to Pandas DataFrames (X_pd and y_pd).
+Splits the Pandas DataFrames into training and testing sets using train_test_split from scikit-learn.
+
+**9. Data Scaling:**
+
+- This section create a StandardScaler instance named scaler.
 
 
-**6. Model Training & Selection:**
-
-
-**7. Testing & Deployment:**
 
 
 **Findings:**
