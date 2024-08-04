@@ -45,8 +45,9 @@ https://www.kaggle.com/datasets/dhanushnarayananr/credit-card-fraud
 
 - Fraud **:** This is the target variable, indicating whether a transaction is fraudulent.
 
-**4. Exploratory Data Analysis:**
+**4. Exploratory Data Analysis and Dependencies:**
 We conducted an in-depth investigation and evaluation of the raw data. 
+
 
 **5. Data Preparation:**
 
