@@ -87,7 +87,10 @@ Splits the Pandas DataFrames into training and testing sets using train_test_spl
 
 
 
-**Findings:**
+**10. Findings:**
 
+**11. Data Ethics:**
+
+This Dataset is publicly available on Kaggle.
 
 
