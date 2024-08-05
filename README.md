@@ -89,7 +89,7 @@ Splits the Pandas DataFrames into training and testing sets using train_test_spl
 
 # Random Forest Model
 # KNN Model
-#
+# Elbow method, Kmean model
 
 **11. Data Ethics:**
 
