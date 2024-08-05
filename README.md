@@ -102,7 +102,8 @@ This Dataset is publicly available on Kaggle.
 - Limited Features: The dataset lacked detailed information and had a limited number of features, which restricted our ability to perform a more in-depth analysis and derive detailed insights.
 - Scenarios: The synthetic data may not encompass all possible credit card fraud scenarios and types. As a result, the models may not be fully equipped to handle more sophisticated credit card fraud that could be encountered in real-world settings.
 
-
+**Performace issues using SQL in Colab compared to Python** 
+- Execution Time Of  queries in Google Colab: We found running SQL commands was slower compared Python  
 
     
 
