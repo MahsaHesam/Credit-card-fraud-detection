@@ -96,6 +96,13 @@ Splits the Pandas DataFrames into training and testing sets using train_test_spl
 This Dataset is publicly available on Kaggle.
 
 **12. Limitations:**
+- Our Dataset:
+  -**limited dataset* was not able to fully replicate a model in a real world scenario because of the limited access to authentic credit card info
+  - *optimisation* there was little to no need of cleaning or optimizing our dataset because the original dataset was only designed to create a detection model
+  - *limited features* lack of detail in our dataset prevented us from drawing a more in-depth analysis and derive more detailed insights
+  - *scenarios* The data may not represent all possible credit card fraud scenarios and types. As a result, the models might not be equipped to handle emerging fraud techniques or highly sophisticated fraud strategies.
+  
+    
 
 **Folders:**
 
