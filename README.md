@@ -82,7 +82,7 @@ Splits the Pandas DataFrames into training and testing sets using train_test_spl
 
 **9. Data Scaling:**
 
-- This section create a StandardScaler instance named scaler.
+- This section creates a StandardScaler instance named scaler.
 
 
 
@@ -92,5 +92,15 @@ Splits the Pandas DataFrames into training and testing sets using train_test_spl
 **11. Data Ethics:**
 
 This Dataset is publicly available on Kaggle.
+
+**Folders:**
+
+- Presentation: Containing PowerPoint presentation
+- Resources: Containing our Dataset
+- Credit card Fraud Detection.ipynb: Our Initial Data analysis
+- Data_Modelling.ipynb: ML Analysis
+- Readme
+
+
 
 
