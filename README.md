@@ -97,12 +97,13 @@ This Dataset is publicly available on Kaggle.
 
 **12. Limitations:**
 - **Our Dataset**
+- Synthetic Data: Due to the limited access to authentic credit card information, our synthetic dataset was unable to fully replicate the complexities of a real-world scenario This limitation may affect the model's generalizability and performance in practical applications.
+- Optimization: The dataset was designed specifically for fraud detection, which meant there was minimal need for data cleaning or optimization. However, this also meant that the models were not tested against real-world challenges such as noisy or incomplete data.
+- Limited Features: The dataset lacked detailed information and had a limited number of features, which restricted our ability to perform a more in-depth analysis and derive detailed insights.
+- Scenarios: The synthetic data may not encompass all possible credit card fraud scenarios and types. As a result, the models may not be fully equipped to handle more sophisticated credit card fraud that could be encountered in real-world settings.
 
-  -*our synthetic data* was not able to fully replicate a model in a real world scenario because of the limited access to authentic credit card info
-  - *optimisation* there was little to no need of cleaning or optimizing our dataset because the original dataset was only designed to create a detection model
-  - *limited features* lack of detail in our dataset prevented us from drawing a more in-depth analysis and derive more detailed insights
-  - *scenarios* The data may not represent all possible credit card fraud scenarios and types. As a result, the models might not be equipped to handle emerging fraud techniques or highly sophisticated fraud strategies.
-  
+
+
     
 
 **Folders:**
