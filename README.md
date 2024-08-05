@@ -85,9 +85,11 @@ Splits the Pandas DataFrames into training and testing sets using train_test_spl
 - This section creates a StandardScaler instance named scaler.
 
 
-
-
 **10. Findings:**
+
+# Random Forest Model
+# KNN Model
+#
 
 **11. Data Ethics:**
 
