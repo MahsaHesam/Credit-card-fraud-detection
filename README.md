@@ -98,21 +98,22 @@ Splits the Pandas DataFrames into training and testing sets using train_test_spl
 
 ![image](https://github.com/user-attachments/assets/8931a658-eabb-48de-abea-e5c5a92fbad3)
 
-Confusion Matrix:
+**Confusion Matrix:**
+
 The confusion matrix provides a breakdown of how accurately a classification model performed on a dataset. In this case, we have two classes: 0 and 1.
-Predicted 0 / Actual 0: 228025 instances were correctly classified as class 0.
-Predicted 1 / Actual 0: 0 instances were incorrectly classified as class 1 (false positives).
-Predicted 0 / Actual 1: 2 instances were incorrectly classified as class 0 (false negatives).
-Predicted 1 / Actual 1: 21973 instances were correctly classified as class 1.
-Accuracy Score:
+- Predicted 0 / Actual 0: 228025 instances were correctly classified as class 0.
+- Predicted 1 / Actual 0: 0 instances were incorrectly classified as class 1 (false positives).
+- Predicted 0 / Actual 1: 2 instances were incorrectly classified as class 0 (false negatives).
+- Predicted 1 / Actual 1: 21973 instances were correctly classified as class 1.
+**Accuracy Score:**
 The accuracy score is 0.999992, which means the model correctly classified 99.9992% of the instances.
-Classification Report:
+**Classification Report:**
 This report provides a more detailed evaluation of the model's performance, including:
-Precision: The ability of the model to correctly predict positive instances (class 1) out of all predicted positive instances. Here, precision is 1.00 for both classes, indicating that the model is very good at identifying true positives.
-Recall: The ability of the model to correctly identify all actual positive instances (class 1). Recall is also 1.00 for both classes, indicating that the model is very good at capturing all true positives.
-F1-score: The harmonic mean of precision and recall, providing a balanced measure of the model's performance. The F1-score is 1.00 for both classes, indicating excellent performance.
-Support: The number of instances in each class.
-Summary:
+- Precision: The ability of the model to correctly predict positive instances (class 1) out of all predicted positive instances. Here, precision is 1.00 for both classes, indicating that the model is very good at identifying true positives.
+- Recall: The ability of the model to correctly identify all actual positive instances (class 1). Recall is also 1.00 for both classes, indicating that the model is very good at capturing all true positives.
+- F1-score: The harmonic mean of precision and recall, providing a balanced measure of the model's performance. The F1-score is 1.00 for both classes, indicating excellent performance.
+- Support: The number of instances in each class.
+**Summary:**
 The model demonstrates exceptional performance on this dataset, with near-perfect accuracy, precision, recall, and F1-scores for both classes. However, it's important to consider the context of this dataset and the potential limitations of such high scores. It's possible that the dataset is imbalanced or that the model is overfitting to the training data. Further analysis would be needed to draw more definitive conclusions.
 
 
@@ -122,19 +123,19 @@ The model demonstrates exceptional performance on this dataset, with near-perfec
 
 Confusion Matrix:
 The confusion matrix provides a breakdown of how accurately a classification model performed on a dataset. In this case, we have two classes: 0 and 1.
-Predicted 0 / Actual 0: 70834 instances were correctly classified as class 0.
-Predicted 1 / Actual 0: 3 instances were incorrectly classified as class 1 (false positives).
-Predicted 0 / Actual 1: 22 instances were incorrectly classified as class 0 (false negatives).
-Predicted 1 / Actual 1: 71299 instances were correctly classified as class 1.
-Accuracy Score:
+- Predicted 0 / Actual 0: 70834 instances were correctly classified as class 0.
+- Predicted 1 / Actual 0: 3 instances were incorrectly classified as class 1 (false positives).
+- Predicted 0 / Actual 1: 22 instances were incorrectly classified as class 0 (false negatives).
+- Predicted 1 / Actual 1: 71299 instances were correctly classified as class 1.
+**Accuracy Score:**
 The accuracy score is 0.9998241393379198, which means the model correctly classified 99.9824% of the instances.
-Classification Report:
+**Classification Report:**
 This report provides a more detailed evaluation of the model's performance, including:
-Precision: The ability of the model to correctly predict positive instances (class 1) out of all predicted positive instances. Here, precision is 1.00 for both classes, indicating that the model is very good at identifying true positives.
-Recall: The ability of the model to correctly identify all actual positive instances (class 1). Recall is also 1.00 for both classes, indicating that the model is very good at capturing all true positives.
-F1-score: The harmonic mean of precision and recall, providing a balanced measure of the model's performance. The F1-score is 1.00 for both classes, indicating excellent performance.
-Support: The number of instances in each class.
-Summary:
+- Precision: The ability of the model to correctly predict positive instances (class 1) out of all predicted positive instances. Here, precision is 1.00 for both classes, indicating that the model is very good at identifying true positives.
+- Recall: The ability of the model to correctly identify all actual positive instances (class 1). Recall is also 1.00 for both classes, indicating that the model is very good at capturing all true positives.
+- F1-score: The harmonic mean of precision and recall, providing a balanced measure of the model's performance. The F1-score is 1.00 for both classes, indicating excellent performance.
+- Support: The number of instances in each class.
+**Summary:**
 The model demonstrates exceptional performance on this dataset, with near-perfect accuracy, precision, recall, and F1-scores for both classes. However, it's important to consider the context of this dataset and the potential limitations of such high scores. It's possible that the dataset is imbalanced or that the model is overfitting to the training data. Further analysis would be needed to draw more definitive conclusions.
 
 **11. Data Ethics:**
