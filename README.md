@@ -89,10 +89,10 @@ Splits the Pandas DataFrames into training and testing sets using train_test_spl
 
 ![image](https://github.com/user-attachments/assets/0099620a-9bf7-458f-a52a-024a6aabd776)
 
-•  distance_from_home  had the strongest positive correlation with fraud  which suggests that fraudulent transactions tend to occur further away from the cardholder's home. 
-•  "Distance_from_last_transaction" and "repeat_retailer" also show a moderate positive correlation with fraud, indicating that transactions that occur far from the previous transaction and those made at new retailers are more likely to be fraudulent. 
-•  "Used_chip" and "used_pin_number" have a weak negative correlation with fraud, suggesting that using a chip card or PIN number may slightly decrease the likelihood of fraud. 
-•  "Online_order" has a strong positive correlation with fraud, indicating that online transactions are more likely to be fraudulent.
+- distance_from_home  had the strongest positive correlation with fraud  which suggests that fraudulent transactions tend to occur further away from the cardholder's home. 
+- "Distance_from_last_transaction" and "repeat_retailer" also show a moderate positive correlation with fraud, indicating that transactions that occur far from the previous transaction and those made at new retailers are more likely to be fraudulent. 
+- "Used_chip" and "used_pin_number" have a weak negative correlation with fraud, suggesting that using a chip card or PIN number may slightly decrease the likelihood of fraud. 
+- "Online_order" has a strong positive correlation with fraud, indicating that online transactions are more likely to be fraudulent.
 
 
 
@@ -105,7 +105,7 @@ The confusion matrix provides a breakdown of how accurately a classification mod
 - Predicted 1 / Actual 0: 0 instances were incorrectly classified as class 1 (false positives).
 - Predicted 0 / Actual 1: 2 instances were incorrectly classified as class 0 (false negatives).
 - Predicted 1 / Actual 1: 21973 instances were correctly classified as class 1.
-- 
+  
 **Accuracy Score:**
   
 The accuracy score is 0.999992, which means the model correctly classified 99.9992% of the instances.
