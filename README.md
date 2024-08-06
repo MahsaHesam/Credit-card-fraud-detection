@@ -171,9 +171,7 @@ This Dataset is publicly available on Kaggle.
 
 - Presentation: Containing PowerPoint presentation
 - Resources: Containing our Dataset
-- Credit card Fraud Detection.ipynb: Our Initial Data analysis
-- Data_Modelling.ipynb: ML Analysis
-- Readme
+- Main codes for analysis: Containing all our analysis
 
 
 
